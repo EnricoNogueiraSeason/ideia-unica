@@ -2,8 +2,10 @@ import { useState } from 'react';
 
 function Home() {
     return (
-        <h1>Home</h1>
-        <Contador />
+        <div>
+            <h1>Home</h1>
+            <Contador />
+        </div>
     )
 }
 
