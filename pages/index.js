@@ -1,7 +1,10 @@
 import { useState } from 'react';
 
 function Home() {
-    return <div>Home</div>
+    return (
+        <h1>Home</h1>
+        <Contador />
+    )
 }
 
 function Contador(props) {
